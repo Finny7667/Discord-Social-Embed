@@ -4,8 +4,9 @@ Inspired by https://github.com/seriaati/embed-fixer
 
 To, make it work :
 ```
-- put it somewhere on your disk
-- create a shortcut of the program
-- then do WIN+R, then "shell:startup" and place it here
+- Download the .pyw file
+- Put it somewhere on your disk
+- Create a shortcut of the program
+- Do WIN+R, then "shell:startup" and place it here
 ```
 So it start in silent mode with no windows in the background at the next restart
