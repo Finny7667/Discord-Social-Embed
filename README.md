@@ -7,6 +7,6 @@ To, make it work :
 - Download the .pyw file
 - Put it somewhere on your disk
 - Create a shortcut of the program
-- Do WIN+R, then "shell:startup" and place it here
+- Do WIN+R, then "shell:startup" and place only trhe shortcut it here
 ```
 So it start in silent mode with no windows in the background at the next restart
