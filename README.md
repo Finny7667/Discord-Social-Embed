@@ -2,7 +2,7 @@
 A python script that can be use for social media embed for Twitter (or X), BlueSky, Reddit, Pixiv on discord.<br/>
 Inspired by https://github.com/seriaati/embed-fixer
 
-To, make it work :
+To, make it work on Windows :
 ```
 - Download the .pyw file
 - Put it somewhere on your disk
