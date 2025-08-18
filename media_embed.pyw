@@ -24,7 +24,7 @@ URL_PATTERNS = [
      r'https://www.phixiv.net/en/artworks/\1/\2'),
     # General Pixiv to Phixiv replacement
     (r'https://www\.pixiv\.net/([^\s]+)', r'https://www.phixiv.net/\1'),
-    # Twitter/X to fxtwitter
+    # Twitter/X to fixupx
     (r'https://x\.com/([^/]+)/status/(\d+)', r'https://fixupx.com/\1/status/\2'),
     # Reddit to rxddit
     (r'https://www\.reddit\.com/([^\s]+)', r'https://www.rxddit.com/\1'),
@@ -67,3 +67,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
