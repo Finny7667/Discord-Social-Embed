@@ -4,6 +4,7 @@ Inspired by https://github.com/seriaati/embed-fixer
 
 To, make it work on Windows :
 ```
+- make sure pip and pyperclip are installed
 - Download the .pyw file
 - Put it somewhere on your disk
 - Create a shortcut of the program
