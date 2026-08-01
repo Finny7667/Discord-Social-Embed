@@ -1,11 +1,11 @@
 # Discord_Social_Embed
-A python script that can be use for social media embed for Twitter (or X), BlueSky, Reddit, Pixiv on discord.<br/>
+A AutoHotKey script that can be use for social media embed for Twitter (or X), BlueSky, Reddit, Pixiv on discord.<br/>
 Inspired by https://github.com/seriaati/embed-fixer
 
 To, make it work on Windows :
 ```
-- make sure pip and pyperclip are installed
-- Download the .pyw file
+- download AutoHotKey v2
+- Download the .ahk file
 - Put it somewhere on your disk
 - Create a shortcut of the program
 - Do WIN+R, then "shell:startup" and place only the shortcut in there
