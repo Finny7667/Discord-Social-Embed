@@ -21,7 +21,7 @@ global URL_PATTERNS := [
     ["https://x\.com/([^/]+)/status/(\d+)(?:\?s=20)?", "https://fixupx.com/$1/status/$2"],
     
     ; 5. Reddit to rxddit
-    ["https://www\.reddit\.com/([^\s]+)", "https://www.rxddit.com/$1"],
+    ["https://www\.reddit\.com/([^\s]+)", "https://www.vxreddit.com/$1"],
     
     ; 6. Bluesky to bskyx
     ["https://bsky\.app/([^\s]+)", "https://bskyx.app/$1"]
