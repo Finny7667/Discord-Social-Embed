@@ -1,4 +1,4 @@
-﻿#Requires AutoHotkey v2.0
+#Requires AutoHotkey v2.0
 #SingleInstance Force
 #NoTrayIcon
 Persistent()
@@ -17,11 +17,11 @@ global URL_PATTERNS := [
     ; 3. General Pixiv to Phixiv (UPDATED: Added ^# to exclude hash from capture, and (?:\#ppixiv)? to strip it)
     ["https://www\.pixiv\.net/([^#\s]+)(?:\#ppixiv)?", "https://www.phixiv.net/$1"],
     
-    ; 4. Twitter/X to fixupxUPDATED: Added (\d+)(?:\?s=20) to exclude end
-    ["https://x\.com/([^/]+)/status/(\d+)(?:\?s=20)?", "https://fixupx.com/$1/status/$2"],
+    ; 4. Twitter/X to fixupx (UPDATED: strips ALL tracking query/fragment params - ?s=20, ?t=..., ?a=...&s=...)
+    ["https://(?:www\.|mobile\.)?(?:x|twitter)\.com/([^/\s?#]+)/status/(\d+)(?:[?#][\w\-=&%+~]*)?", "https://fixupx.com/$1/status/$2"],
     
     ; 5. Reddit to rxddit
-    ["https://www\.reddit\.com/([^\s]+)", "https://www.vxreddit.com/$1"],
+    ["https://www\.reddit\.com/([^\s]+)", "https://www.rxddit.com/$1"],
     
     ; 6. Bluesky to bskyx
     ["https://bsky\.app/([^\s]+)", "https://bskyx.app/$1"]
@@ -57,4 +57,4 @@ LogError(msg) {
 }
 
 ; --- EXIT HOTKEY ---
-^!q::ExitApp() 
+^!q::ExitApp()
